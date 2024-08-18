@@ -182,11 +182,13 @@ align-self:center;
 @media screen and (max-width: 600px){
    
     #caption{
-        font-size: 70%;
+        font-size: 60%;
     }
     
 }
 @media screen and (max-width:500px) {
-    .modal-content{max-width:fit-content; height: 50%;}
-    .modal{align-items: center;}
+    .modal-content{width: 90%; height: fit-content;}
+    .modal{
+        width: 100%;
+    }
 }
